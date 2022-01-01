@@ -5,17 +5,17 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => { 
-    const sendEmail=(e)=>{
-        e.preventDefault();
+    // const sendEmail=(e)=>{
+    //     e.preventDefault();
 
-        emailjs.sendForm('service_ktg3huw', 'template_erykpdl', e.target, 
-        'user_pACLg1alP3QD6jCvehQfE')
-          .then((result) => {
-              (result.text==="OK") && e.target.reset();
-          }, (error) => {
-              console.log(error.text);
-          });
-    }   
+    //     emailjs.sendForm('service_ktg3huw', 'template_erykpdl', e.target, 
+    //     'user_pACLg1alP3QD6jCvehQfE')
+    //       .then((result) => {
+    //           (result.text==="OK") && e.target.reset();
+    //       }, (error) => {
+    //           console.log(error.text);
+    //       });
+    // }   
     return (
         <section  id="contact" className="contact  py-5">
             <div className="container">
@@ -23,7 +23,7 @@ const Contact = () => {
                 <h3  style={{ textAlign: 'center' }}>Contact<hr style={{backgroundColor:'white',width:'10%'}} /></h3>
                 </div>
                 <div className="col-md-8 mx-auto">
-                    <form action="https://formsubmit.co/subratamodak3491@gmail.com" method="POST" onSubmit={sendEmail} >
+                    <form action="https://formsubmit.co/subratamodak3491@gmail.com" method="POST"  >
                         <div className="form-group my-2">
                             <input name="sender_name" type="text" className="form-control" placeholder="Name" />
                         </div>
