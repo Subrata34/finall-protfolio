@@ -1,7 +1,7 @@
 import React from 'react';
 import Progress from '../Progress/Progress';
 import './Skill.css';
-const skillsData=[
+const Data=[
     {
         skillName:"HTML",
         proficiency:90
@@ -18,6 +18,11 @@ const skillsData=[
         skillName:"Bootstrap",
         proficiency:85
     },
+    {
+      skillName:"Meterial Ui",
+      proficiency:70
+    },
+    
     {
         skillName:"React JS",
         proficiency:80
@@ -38,7 +43,7 @@ const Skill = () => {
         <section id="skills" className="container skill-area back">
             <h3 style={{ textAlign: 'center' }}>Skill <hr style={{backgroundColor:'white',width:'100%'}} /></h3>
             {
-                skillsData.map(sd=><Progress skillName={sd.skillName} proficiency={sd.proficiency}></Progress>)
+                Data.map(sd=><Progress skillName={sd.skillName} proficiency={sd.proficiency}></Progress>)
             }
         </section>
     );
