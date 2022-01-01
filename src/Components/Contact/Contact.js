@@ -36,8 +36,8 @@ const Contact = () => {
                         <div className="form-group my-2">
                             <textarea name="sender_message" className="form-control" id="" cols="30" rows="10" placeholder="Message"></textarea>
                         </div>
-                        <div className="form-group my-2 text-center">
-                            <button type="submit" className="btn btn-success"> Send </button>
+                        <div className="form-group my-2 text-center" style={{width:"100%"}}>
+                            <button style={{width:"100%"}} type="submit" className="btn btn-success"> Send </button>
                         </div>
                     </form>
                 </div>
