@@ -42,15 +42,15 @@ const Contact = () => {
                     </form>
                 </div>
                 <div className="text-center text-white">
-                    <h3 className="heading-color">Or Follow Me On</h3>
+                    <h3 className="heading-color">contact Me</h3>
                 </div>
                 <div className="d-flex justify-content-center m-4">
-                    <a href="https://github.com/Melon-ali" target="_blank">
+                    <a href="https://github.com/Subrata34" target="_blank">
                     {" "}
                     <FaGithub className="text-white bg m-2" />
                     </a>
                     <a
-                    href="https://www.linkedin.com/in/melon-ali-53b827196/"
+                    href="https://www.linkedin.com/in/subrata-modak-22m02/"
                     target="_blank"
                     >
                     {" "}

@@ -12,7 +12,7 @@ const Topbar = () => {
                 <Navbar.Brand href="#home">
                     <a href="#">
                         <span className="text-nav">
-                            <img style={{ width: '100px' }} src='https://i.ibb.co/v3cLZxg/logo.png' alt="" />
+                            <h1>SM</h1>
                         </span>
                     </a>
                 </Navbar.Brand>
