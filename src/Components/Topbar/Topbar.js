@@ -23,7 +23,7 @@ const Topbar = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto ">
-                        <Nav.Link className="pr-4">
+                        <Nav.Link className="pr-4" style={{direction:"none"}}>
                             <HashLink smooth to="#about"><span className="text-nav ">ABOUT</span></HashLink>
                         </Nav.Link>
                         <Nav.Link className="pr-4">
