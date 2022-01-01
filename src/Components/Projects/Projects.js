@@ -1,36 +1,28 @@
 import React from 'react';
 import ProjectCard from './ProjectCard/ProjectCard';
 import './Projects.css';
-import cleanMoto from '../../media/plot.png';
-import freshBazar from '../../media/Ploat.png';
-import teamFinder from '../../media/edu.png';
+import image02 from '../../image/image02.jpg';
+import image03 from '../../image/image03.jpg';
+
 const projectData = [
     {
-        projectImg: cleanMoto,
-        projectTitle: "Getaway Tourism",
-        projectDescription: "Complete MERN stack responsive website for Car Wash company who sells different types of services.",
-        projectTechnology: ["React JS,", "React Router,", "React Hook Form,", "React Stripe,", "Firebase Auth,", "Bootstrap,", "Express"],
-        projectWebsiteLink: "https://clean-moto.web.app/",
-        projectSourceCodeLink: "https://github.com/Melon-ali/tourism-or-delivery-website-client-side",
-        projectSourceCodeLink2: "https://github.com/Melon-ali/-tourism-or-delivery-website-server-side"
+        projectImg: image03,
+        projectTitle: "Car shop ",
+        projectDescription: "Complete MERN stack responsive website for Car selling company who sells different types of shop.",
+        projectTechnology: ["React JS,", "React Router,", "React Hook Form,", "Firebase Auth,", "Meterial UI ,", "Express"],
+        projectWebsiteLink: "https://car-shop-96d46.web.app/",
+        projectSourceCodeLin:"https://github.com/Subrata34/houda-car",
+        projectSourceCodeLink2: "https://github.com/Subrata34/niche-website-server-side-Subrata34"
     },
     {
-        projectImg: freshBazar,
-        projectTitle: "Factory Ave",
-        projectDescription: "Complete MERN Stack responsive website for an eCommerce company that sells different types of products.",
-        projectTechnology: ["React JS,", "React Router,", "React Hook Form,","Firebase Auth,", "Bootstrap,", "Express"],
-        projectWebsiteLink: "https://factory-ave.web.app/",
-        projectSourceCodeLink: "https://github.com/Melon-ali/-niche-website-client-side",
-        projectSourceCodeLink2: "https://github.com/Melon-ali/niche-website-server-side"
+        projectImg: image02,
+        projectTitle: "Health Care",
+        projectDescription: "React js site which used bootstrap css frame work ",
+        projectTechnology: ["React JS,", "React Router,","Firebase Auth,", "Bootstrap,"],
+        projectWebsiteLink: "https://health-care-d0445.web.app",
+        projectSourceCodeLink: "https://github.com/Subrata34/health-care-",
     },
-    {
-        projectImg: teamFinder,
-        projectTitle: "Education Coures",
-        projectDescription: "A Education Course information-based responsive website to update yourself about your queries.",
-        projectTechnology: ["React JS,", "React Router,","Bootstrap,","React Bootstrap"],
-        projectWebsiteLink: "https://loving-volhard-d1d936.netlify.app/",
-        projectSourceCodeLink: "https://github.com/Melon-ali/-review-website"
-    }
+   
 ]
 
 const Projects = () => {

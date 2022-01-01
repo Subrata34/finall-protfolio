@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import './About.css';
+import image01 from "../../image/image01.jpg";
 
 const About = () => {
     return (
@@ -10,12 +11,9 @@ const About = () => {
                 <div className="about ">
                 <div data-aos="fade-right" className="about-details">
                     <p>
-                    Hello! I'm Subrata Modak, a passionate React JS developer. I
+                    Hi! I'm Subrata Modak, a passionate React JS developer and Font End  Development. I
                     develop web applications. My core skill is based on JavaScript and I love to
-                    do most of the things using JavaScript. I love to make the web
-                    more open to the world. To gain confidence and fame using my potential in the field of “Web Development”, passionate MREN stack developer and express my
-                    innovative creative skills for self and company growth.
-                    Handling the difficulties and bad situations.
+                    do most of the things using JavaScript.This javaScript and web developing are passion job .
                     </p>
                     <div data-aos="fade-left" className="mt-5">
                     <a href="https://drive.google.com/file/d/1ZbNjneb3fuA21-FGus3Q3XXr9Jiyvf4d/view?usp=sharing" target="_blank">
@@ -27,7 +25,7 @@ const About = () => {
                 </div>
                 <div data-aos="flip-left" className="about-image">
                     <div className="image">
-                    <img alt="profile" src="./image/image01.jpg" />
+                    <img alt="profile" src={image01}/>
                     </div>
                 </div>
                 </div>
