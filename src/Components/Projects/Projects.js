@@ -27,7 +27,7 @@ const projectData = [
         projectImg: image04,
         projectTitle: "Course Review site",
         projectDescription: "React js site which used bootstrap css frame work and this is Course Review site ",
-        projectTechnology: ["React JS,", "React Router,","Firebase Auth,", "Bootstrap,"],
+        projectTechnology: ["React JS,", "React Router,", "React Bootstrap,"],
         projectWebsiteLink: "https://hungry-goldstine-5190c9.netlify.app",
         projectSourceCodeLink: "https://github.com/Subrata34/Course-review",
     }
