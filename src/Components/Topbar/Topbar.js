@@ -38,7 +38,7 @@ const Topbar = () => {
                         <Nav.Link className="pr-4">
                             <HashLink smooth to="#contact"><span className="text-nav">CONTACT</span></HashLink>
                         </Nav.Link>
-                        <Nav.Link href="https://drive.google.com/file/d/11lNRI1qsYk_xn1LjXPO0W8L_ZG2TC6On/view?usp=sharing" target="_blank">
+                        <Nav.Link href="https://drive.google.com/file/d/1ZGkMLQssgiXxnUNuZipc9t74kO0NoYoL/view?usp=sharing" target="_blank">
                             <span className="text-nav text-border">RESUME</span>
                         </Nav.Link>
                     </Nav>
