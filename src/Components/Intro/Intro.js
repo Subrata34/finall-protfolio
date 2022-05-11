@@ -27,7 +27,7 @@ const Intro = () => {
                     </h3>
                 </div>
                 <div className="mt-5">
-                    <a href="https://drive.google.com/file/d/1ZGkMLQssgiXxnUNuZipc9t74kO0NoYoL/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/1KvU47YYz6V5yGPookXjekAaUFHCpIFT1/view?usp=sharing" target="_blank">
                         <button style={{ width: '150px', height: '50px', fontSize: '18px' }} className="btn btn-success me-3">Get Resume</button>
                     </a>
                     <HashLink smooth to="#about">
