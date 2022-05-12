@@ -12,7 +12,7 @@ const projectData = [
         projectDescription: "Complete MERN stack responsive website for Car selling company who sells different types of shop.",
         projectTechnology: ["React JS,", "React Router,", "React Hook Form,", "Firebase Auth,", "Meterial UI ,", "Express"],
         projectWebsiteLink: "https://car-shop-96d46.web.app/",
-        projectSourceCodeLin:"https://github.com/Subrata34/houda-car",
+        projectSourceCodeLink:"https://github.com/Subrata34/houda-car",
         projectSourceCodeLink2: "https://github.com/Subrata34/niche-website-server-side-Subrata34"
     },
     {
@@ -25,11 +25,12 @@ const projectData = [
     },
     {
         projectImg: image04,
-        projectTitle: "Course Review site",
-        projectDescription: "React js site which used bootstrap css frame work and this is Course Review site ",
-        projectTechnology: ["React JS,", "React Router,", "React Bootstrap,"],
-        projectWebsiteLink: "https://hungry-goldstine-5190c9.netlify.app",
-        projectSourceCodeLink: "https://github.com/Subrata34/Course-review",
+        projectTitle: "Tourism Agency Site",
+        projectDescription: "React js site which used Material UI frame work and this is Tourism Agency Sit ",
+        projectTechnology: ["React JS,", "React Router,","Firebase Authentication,","material UI,","Express Js,","MongoDB,"],
+        projectWebsiteLink: "https://traveler-c358e.web.app/",
+        projectSourceCodeLink: "https://github.com/Subrata34/tourist-client",
+        projectSourceCodeLink2:"https://github.com/Subrata34/tourist-server"
     }
    
 ]
